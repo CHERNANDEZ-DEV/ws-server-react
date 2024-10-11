@@ -13,7 +13,7 @@ const WebSocketComponent = () => {
     });
 
     useEffect(() => {
-        const ws = new WebSocket('ws://64.225.2.57:3000'); // Reemplaza con la dirección de tu servidor WebSocket
+        const ws = new WebSocket('ws://159.223.155.207:3000'); // Reemplaza con la dirección de tu servidor WebSocket
 
         ws.onopen = () => {
             console.log('Conectado al servidor WebSocket');
